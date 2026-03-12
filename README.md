@@ -20,9 +20,7 @@ This project sends transactions to the Solana devnet, records the latency and es
 ## Project Structure
 solana_landing_analyzer
 │
-├── src/
-│ └── main.rs # Rust transaction experiment tool
-│
+├── src/ main.rs # Rust transaction experiment tool
 ├── analyze_latency.py # Python analysis script
 ├── latency_results.csv # Experiment results (generated)
 ├── Cargo.toml # Rust project configuration
